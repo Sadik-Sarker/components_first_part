@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Bootstrap components</title>
+</head>
+
+<body>
+    <section class="bread_crumb">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link mx-5" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link mx-5" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link mx-5" href="contact.html">Contact</a>
+                    </li>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page">Home</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+    <section class="alert_part">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-5">
+                    <div class="alert_custom alert alert-info alert-dismissible fade show" role="alert">
+                        <h4>Congratulations!</h4>
+                        <p>You are selected for our Eid discount offer!</p>
+                        <hr>
+                        <p class="mb-0"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Discount Going on! <a href="#" class="alert-link">Grab it now!</a> </p>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="accordion_part">
+        <div class="container">
+            <h2 class="text-center my-5">Accordion Practice</h2>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="accordion_wrapper">
+                        <h4>Accordion flush</h4>
+                        <div class="accordion accordion-flush" id="leftAccordionFlush">
+                            <!-- item1 start -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-cOne" aria-expanded="true" aria-controls="flush-cOne">
+                                    Lorem ipsum dolor sit amet?
+                                </button>
+                                </h2>
+                                <div id="flush-cOne" class="accordion-collapse collapse show" aria-labelledby="flush-headOne" data-bs-parent="#leftAccordionFlush">
+                                <div class="accordion-body"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quod reprehenderit, blanditiis molestias sequi illum esse, facere nemo nisi magnam nobis omnis. Dolore architecto quae cupiditate distinctio perferendis iure adipisci?</p></div>
+                                </div>
+                            </div>
+                            <!-- item1 end -->
+                            <!-- item2 start -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-cTwo" aria-expanded="false" aria-controls="flush-cTwo">
+                                    Lorem ipsum dolor sit?
+                                </button>
+                                </h2>
+                                <div id="flush-cTwo" class="accordion-collapse collapse" aria-labelledby="flush-headTwo" data-bs-parent="#leftAccordionFlush">
+                                <div class="accordion-body"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, earum ea? Necessitatibus minima fugiat, maiores delectus dolore perspiciatis rem libero.</p></div>
+                                </div>
+                            </div>
+                            <!-- item2 end -->
+                            <!-- item3 start -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-cThree" aria-expanded="false" aria-controls="flush-cThree">
+                                    Lorem ipsum dolor sit?
+                                </button>
+                                </h2>
+                                <div id="flush-cThree" class="accordion-collapse collapse" aria-labelledby="flush-headThree" data-bs-parent="#leftAccordionFlush">
+                                <div class="accordion-body"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, earum ea? Necessitatibus minima fugiat, maiores delectus dolore perspiciatis rem libero.</p></div>
+                                </div>
+                            </div>
+                            <!-- item3 end -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="accordion_wrapper">
+                        <h4>Accordion flush</h4>
+                        <div class="accordion" id="Rightaccordion">
+                            <!-- item1 start -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#cOne" aria-expanded="true" aria-controls="cOne">
+                                    Why this colabery D?
+                                </button>
+                                </h2>
+                                <div id="cOne" class="accordion-collapse collapse show" aria-labelledby="headOne" data-bs-parent="#Rightaccordion">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quod reprehenderit, blanditiis molestias sequi illum esse, facere nemo nisi magnam nobis omnis. Dolore architecto quae cupiditate distinctio perferendis iure adipisci?</p>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- item1 end -->
+                            <!-- item2 start -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cTwo" aria-expanded="false" aria-controls="cTwo">
+                                    Why this colaberry D (2)?
+                                </button>
+                                </h2>
+                                <div id="cTwo" class="accordion-collapse collapse" aria-labelledby="headTwo" data-bs-parent="#Rightaccordion">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse natus voluptas cumque ratione veritatis voluptatibus vel, laboriosam veniam itaque rem! Alias corrupti itaque, voluptatibus, animi obcaecati earum iure dolorum mollitia, explicabo quo exercitationem eum voluptates dolorem asperiores cum vel repellat.</p>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- item2 end -->
+                            <!-- item2 start -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cThree" aria-expanded="false" aria-controls="cThree">
+                                    Why this colabery D (3)?
+                                </button>
+                                </h2>
+                                <div id="cThree" class="accordion-collapse collapse" aria-labelledby="headThree" data-bs-parent="#Rightaccordion">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quia at veritatis sit dolorem repellat odit natus debitis porro iusto repudiandae nobis deserunt enim, excepturi magnam quaerat id dolores tempora.</p>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- item2 end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="badgr_practice py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="btn btn-primary">
+                        Notifications <span class="badge bg-danger">99+</span>
+                    </button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-primary position-relative">Notifications<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">99+<span class="visually-hidden">Notifications</span></span>
+                    </button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-primary position-relative">Notifications<span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle"><span class="visually-hidden">Notifications</span></span>
+                    </button>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-primary">
+                        Notifications <span class="badge bg-danger rounded-pill">99+</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="button_practice">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6 mx-auto">
+                    <h3 class="text-center py-4">Let's practice button group</h3>
+                    <button type="button" class="btn btn-lg btn-custom">Custom Button</button>
+                    <button type="button" class="btn btn-info mx-5">Info Button</button>
+                    <a href="#" class="btn btn-outline-primary">Outline Primary a</a>
+                </div>
+            </div>
+            <div class="row justify-content-center py-5">
+                <h3 class="text-center py-4">Let's practice button group</h3>
+                <div class="col-md-6">
+                    <div class="btn_wrapper text-center">
+                        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                            <button type="button" class="btn btn-lg btn-info">Left Button</button>
+                            <button type="button" class="btn btn-lg btn-primary">Middle Button</button>
+                            <button type="button" class="btn btn-lg btn-success">Right Button</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="btn_wrapper text-center">
+                        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                            <button type="button" class="btn btn-lg btn-outline-success">Left Button</button>
+                            <button type="button" class="btn btn-lg btn-outline-primary">Middle Button</button>
+                            <button type="button" class="btn btn-lg btn-outline-info">Right Button</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <h4 class="py-4 text-center">Please select which products you want to buy...</h4>
+                    <div class="btn-wrapper text-center">
+                        <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                            <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                            <label class="btn btn-outline-info" for="btncheck1">Mobile</label>
+                            <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                            <label class="btn btn-outline-warning" for="btncheck2">Laptop</label>
+                            <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                            <label class="btn btn-outline-success" for="btncheck3">Desktop</label>
+                            <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+                            <label class="btn btn-outline-dark" for="btncheck4">Power Supply</label>
+                            <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="btncheck5">Mouse and Keyboard</label>
+                            <input type="checkbox" class="btn-check" id="btncheck6" autocomplete="off">
+                            <label class="btn btn-outline-danger" for="btncheck6">Speaker</label>
+                            <input type="checkbox" class="btn-check" id="btncheck7" autocomplete="off">
+                            <label for="btncheck7" class="btn btn-outline-primary">Charger</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 text-center">
+                    <h4 class="text-center py-4">Please select any one option</h4>
+                    <div class="btn-wrapper">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check" id="radiobtn1" name="radio_button" autocomplete="off">
+                            <label for="radiobtn1" class="btn btn-outline-success">Mouse</label>
+                            <input type="radio" class="btn-check" id="radiobtn2" name="radio_button" autocomplete="off">
+                            <label for="radiobtn2" class="btn btn-outline-info">Keyboard</label>
+                            <input type="radio" class="btn-check" id="radiobtn3" name="radio_button" autocomplete="off">
+                            <label for="radiobtn3" class="btn btn-outline-primary">CPU</label>
+                            <input type="radio" class="btn-check" id="radiobtn4" name="radio_button" autocomplete="off">
+                            <label for="radiobtn4" class="btn btn-outline-secondary">RAM</label>
+                            <input type="radio" class="btn-check" id="radiobtn5" name="radio_button" autocomplete="off">
+                            <label for="radiobtn5" class="btn btn-outline-warning">HDD</label>
+                            <input type="radio" class="btn-check" id="radiobtn6" name="radio_button" autocomplete="off">
+                            <label for="radiobtn6" class="btn btn-outline-dark">SSD</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <h4 class="text-center py-4">Let's put some other styles</h4>
+                    <h5 class="text-center">Chose any one from first six items and then you can chose rest of the items</h5>
+                    <div class="btn_wrapper mx-auto">
+                        <div class="btn-toolbar text-center" role="toolbar" aria-label="Toolbar with button groups">
+                            <div class="btn-group me-2" role="group" aria-label="Basic radio toggle button group">
+                                <input type="radio" class="btn-check" id="radiobtn1.1" name="radio_button" autocomplete="off">
+                                <label for="radiobtn1.1" class="btn btn-outline-success">Mouse</label>
+                                <input type="radio" class="btn-check" id="radiobtn2.2" name="radio_button" autocomplete="off">
+                                <label for="radiobtn2.2" class="btn btn-outline-info">Keyboard</label>
+                                <input type="radio" class="btn-check" id="radiobtn3.3" name="radio_button" autocomplete="off">
+                                <label for="radiobtn3.3" class="btn btn-outline-primary">CPU</label>
+                            </div>
+                            <div class="btn-group me-2" role="group" aria-label="Basic checkbox toggle button group">
+                                <input type="checkbox" class="btn-check" id="btncheck1.1" autocomplete="off">
+                                <label class="btn btn-outline-info" for="btncheck1.1">Mobile</label>
+                                <input type="checkbox" class="btn-check" id="btncheck2.2" autocomplete="off">
+                                <label class="btn btn-outline-warning" for="btncheck2.2">Laptop</label>
+                                <input type="checkbox" class="btn-check" id="btncheck3.3" autocomplete="off">
+                                <label class="btn btn-outline-success" for="btncheck3.3">Desktop</label>
+                            </div>
+                            <div class="btn-group me-2" role="group" aria-label="Basic radio toggle button group">
+                                <input type="radio" class="btn-check" id="radiobtn1.1.1" name="radio_button" autocomplete="off">
+                                <label for="radiobtn1.1.1" class="btn btn-outline-success">Mouse</label>
+                                <input type="radio" class="btn-check" id="radiobtn2.2.2" name="radio_button" autocomplete="off">
+                                <label for="radiobtn2.2.2" class="btn btn-outline-info">Keyboard</label>
+                                <input type="radio" class="btn-check" id="radiobtn3.3.3" name="radio_button" autocomplete="off">
+                                <label for="radiobtn3.3.3" class="btn btn-outline-primary">CPU</label>
+                            </div>
+                            <div class="btn-group me-2" role="group" aria-label="Basic checkbox toggle button group">
+                                <input type="checkbox" class="btn-check" id="btncheck1.1.1" autocomplete="off">
+                                <label class="btn btn-outline-info" for="btncheck1.1.1">Mobile</label>
+                                <input type="checkbox" class="btn-check" id="btncheck2.2.2" autocomplete="off">
+                                <label class="btn btn-outline-warning" for="btncheck2.2.2">Laptop</label>
+                                <input type="checkbox" class="btn-check" id="btncheck3.3.3" autocomplete="off">
+                                <label class="btn btn-outline-success" for="btncheck3.3.3">Desktop</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="btn_wrapper">
+                    <div class="col-6">
+                        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                            <button type="button" class="btn btn-primary">1</button>
+                            <button type="button" class="btn btn-primary">2</button>
+                            <div class="btn-group" role="group">
+                                <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                                <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="btn_wrapper">
+                    <div class="col-6 py-5">
+                        <div class="btn-group-vertical" role="group" aria-label="Button group with nested dropdown">
+                            <button type="button" class="btn btn-primary">1</button>
+                            <button type="button" class="btn btn-primary">2</button>
+                            <div class="btn-group" role="group">
+                                <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                3
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <li><a class="dropdown-item" href="#">3.1</a></li>
+                                <li><a class="dropdown-item" href="#">3.2</a></li>
+                                </ul>
+                            </div>
+                            <button type="button" class="btn btn-primary">4</button>
+                            <button type="button" class="btn btn-primary">5</button>
+                            <div class="btn-group" role="group">
+                                <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                6
+                                </button>
+                                <ul class="dropdown-menu bg-info" aria-labelledby="btnGroupDrop1">
+                                <li><a class="dropdown-item" href="#">6.1</a></li>
+                                <li><a class="dropdown-item" href="#">6.2</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="card_practice py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/pizza.jpg" class="card-img-top" alt="Pizza">
+                        <div class="card-body">
+                            <h5 class="card-title">Delliscious Pizza</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minus vitae cumque tempora dolor iste, voluptatibus ullam aliquid in commodi.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Beef</li>
+                            <li class="list-group-item">Mutton</li>
+                            <li class="list-group-item">Mashroom</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Buy Now</a>
+                            <a href="#" class="card-link">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <img src="images/pizza.jpg" class="card-img-top" alt="Pizza">
+                        <div class="card-body">
+                            <h5 class="card-title">Delliscious Pizza</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minus vitae cumque tempora dolor iste, voluptatibus ullam aliquid in commodi.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Beef</li>
+                            <li class="list-group-item">Mutton</li>
+                            <li class="list-group-item">Mashroom</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Buy Now</a>
+                            <a href="#" class="card-link">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-end">
+                        <img src="images/pizza.jpg" class="card-img-top" alt="Pizza">
+                        <div class="card-body">
+                            <h5 class="card-title">Delliscious Pizza</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minus vitae cumque tempora dolor iste, voluptatibus ullam aliquid in commodi.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Beef</li>
+                            <li class="list-group-item">Mutton</li>
+                            <li class="list-group-item">Mashroom</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Buy Now</a>
+                            <a href="#" class="card-link">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <div class="card border-danger text-warning mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4 bg-secondary">
+                            <img src="images/pizza.jpg" class="img-fluid rounded-start" alt="Pizza">
+                            </div>
+                            <div class="col-md-8 bg-success">
+                            <div class="card-body">
+                                <h5 class="card-title">Pizza</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore commodi porro ad laboriosam odio fuga totam.</p>
+                                <p class="card-text"><small class="text-danger">Last updated 3 mins ago</small></p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card text-dark mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4 bg-primary">
+                            <img src="images/pizza.jpg" class="img-fluid rounded-start" alt="Pizza">
+                            </div>
+                            <div class="col-md-8 bg-info">
+                            <div class="card-body">
+                                <h5 class="card-title">Pizza</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore commodi porro ad laboriosam odio fuga totam.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-3">
+                    <div class="card h-100">
+                    <img src="images/pizza.jpg" class="card-img-top img-fluid" alt="Pizza">
+                    <div class="card-body bg-warning">
+                        <h5 class="card-title">Pizza Time</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis corrupti cupiditate necessitatibus totam dolorum dignissimos voluptas aliquam doloribus harum consequuntur.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card h-100">
+                    <img src="images/pizza.jpg" class="card-img-top img-fluid" alt="Pizza">
+                    <div class="card-body bg-success">
+                        <h5 class="card-title">Pizza Time</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum et nisi laboriosam accusamus quo saepe nihil ipsam laborum, esse quia, voluptatibus adipisci quos voluptatum velit.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card h-100">
+                    <img src="images/pizza.jpg" class="card-img-top img-fluid" alt="Pizza">
+                    <div class="card-body bg-info">
+                        <h5 class="card-title">Pizza Time</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, totam accusamus impedit consectetur atque ex.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card h-100">
+                    <img src="images/pizza.jpg" class="card-img-top img-fluid" alt="Pizza">
+                    <div class="card-body bg-danger">
+                        <h5 class="card-title">Pizza Time</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis sint molestias expedita aliquam voluptatem tempore voluptatum, necessitatibus rem vel molestiae.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="collapse_practice">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                            <div class="card card-body">
+                                Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapseExample2">
+                            <div class="card card-body">
+                                Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="next py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle dropdown-toggle-split" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown button
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 py-5">
+                    <!-- Example split danger button -->
+                    <div class="btn-group">
+                    <button type="button" class="btn btn-danger">Action</button>
+                    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="modal_practice">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Click here to see modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Hello there!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Hello World!
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+        </div>
+    </div>
+    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- JS links -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+

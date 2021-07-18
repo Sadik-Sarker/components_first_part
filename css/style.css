@@ -1,0 +1,31 @@
+.alert_custom {
+  border-color: orange;
+}
+#cOne {
+  background-color: palegreen;
+}
+#cTwo {
+  background-color: paleturquoise;
+}
+#cThree {
+  background-color: plum;
+}
+.btn-custom {
+  color: #17ef45;
+  background-color: #305d2b;
+  border-color: #305d2b;
+}
+.btn-custom:hover {
+  color: #305d2b;
+  background-color: #17ef45;
+}
+.btn-info:focus {
+  box-shadow: none;
+}
+.btn-info:hover {
+  color: #3dd5f3;
+  background-color: black;
+}
+.btn-info:focus:not(:focus-visible) {
+  box-shadow: none;
+}
